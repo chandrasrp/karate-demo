@@ -1,0 +1,15 @@
+<testsuite failures="1" name="src/test/resources/simple-test.feature" skipped="0" tests="1" time="0.92446">
+  <testcase classname="src.test.resources.simple-test" name="Create a record" time="0.92446">
+    <failure message="simple-test.feature:13 - path: $.name, actual: 'doggie', expected: 'doggiecp', reason: not equal">* def myUrl = 'https://petstore.swagger.io/v2/pet' ........................ passed
+* url myUrl ............................................................... passed
+Given url myUrl ........................................................... passed
+And request read('test-post-data.json') ................................... passed
+When method post .......................................................... passed
+Then status 200 ........................................................... passed
+And match $ == read('expected.json') ...................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: simple-test.feature:13 - path: $.name, actual: 'doggie', expected: 'doggiecp', reason: not equal
+	at ✽.And match $ == read('expected.json') (simple-test.feature:13)</failure>
+  </testcase>
+</testsuite>

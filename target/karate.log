@@ -1,0 +1,171 @@
+00:00:27.344 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:00:27.652 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - url not set, please refer to the keyword documentation for 'url'
+00:00:27.655 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: url not set, please refer to the keyword documentation for 'url'
+00:00:27.821 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/simple-test.feature
+00:08:40.793 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:08:41.072 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - url not set, please refer to the keyword documentation for 'url'
+00:08:41.075 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: url not set, please refer to the keyword documentation for 'url'
+00:08:41.215 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/simple-test.feature
+00:09:22.091 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:09:22.433 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/simple-test.feature
+00:10:55.821 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:10:56.363 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.7)
+{"id":0,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:10:56.988 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 616.81
+1 < 404
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Type: application/xml
+1 < Date: Sun, 17 May 2020 23:10:56 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><apiResponse><message>null for uri: http://petstore.swagger.io/v2/</message><type>unknown</type></apiResponse>
+
+00:10:57.055 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 404, expected: 200, response time: 617, url: https://petstore.swagger.io/v2/, response: <apiResponse><message>null for uri: http://petstore.swagger.io/v2/</message><type>unknown</type></apiResponse>
+00:10:57.118 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/simple-test.feature
+00:11:52.386 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:11:52.907 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.7)
+{"id":0,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:11:53.417 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 501.66
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 23:11:53 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":502906,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:11:53.551 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/simple-test.feature
+00:17:57.613 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:17:57.908 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - url not set, please refer to the keyword documentation for 'url'
+00:17:57.912 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: url not set, please refer to the keyword documentation for 'url'
+00:17:58.043 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/resources/simple-test.feature
+00:18:35.351 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:18:35.629 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - url not set, please refer to the keyword documentation for 'url'
+00:18:35.633 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: url not set, please refer to the keyword documentation for 'url'
+00:18:35.773 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/resources/simple-test.feature
+00:19:02.943 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:19:03.215 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - url not set, please refer to the keyword documentation for 'url'
+00:19:03.218 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: url not set, please refer to the keyword documentation for 'url'
+00:19:03.356 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/resources/simple-test.feature
+00:23:56.867 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:24:09.412 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:24:14.556 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:24:14.714 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+00:24:14.918 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/simple-test.feature
+00:25:24.315 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:25:24.473 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+00:25:24.830 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.7)
+{"id":0,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:25:25.439 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 603.81
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 23:25:25 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":503014,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:25:25.584 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/simple-test.feature
+00:25:49.128 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:25:49.286 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+00:25:49.632 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.7)
+{"id":0,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:25:50.133 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 495.66
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 23:25:50 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":503015,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:25:50.277 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/resources/simple-test.feature
+00:26:17.720 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:26:17.876 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+00:26:18.225 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.7)
+{"id":0,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:26:18.698 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 468.50
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 23:26:18 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":503017,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:26:18.833 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/resources/simple-test.feature
+00:26:33.004 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+00:26:33.166 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+00:26:33.515 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.7)
+{"id":0,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:26:34.142 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 622.51
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 23:26:34 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":503018,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:26:34.152 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - assertion failed: path: $.name, actual: 'doggie', expected: 'doggiecp', reason: not equal
+00:26:34.287 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/resources/simple-test.feature

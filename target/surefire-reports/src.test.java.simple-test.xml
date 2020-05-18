@@ -1,0 +1,11 @@
+<testsuite failures="0" name="src/test/java/simple-test.feature" skipped="0" tests="1" time="0.915937">
+  <testcase classname="src.test.java.simple-test" name="Create a record" time="0.915937">
+    <system-out>* def myUrl = 'https://petstore.swagger.io/v2/pet' ........................ passed
+* url myUrl ............................................................... passed
+Given url myUrl ........................................................... passed
+And request read('test-post-data.json') ................................... passed
+When method post .......................................................... passed
+Then status 200 ........................................................... passed
+And match $ == read('expected.json') ...................................... passed</system-out>
+  </testcase>
+</testsuite>

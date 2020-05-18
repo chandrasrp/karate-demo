@@ -1,0 +1,24 @@
+00:26:33.168 karate.env system property was:  
+00:26:33.515 request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 138
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: petstore.swagger.io
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.7)
+{"id":0,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:26:34.143 response time in milliseconds: 622.51
+1 < 200
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Origin: *
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 17 May 2020 23:26:34 GMT
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":503018,"category":{"id":0,"name":"string"},"name":"doggie","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+00:26:34.152 assertion failed: path: $.name, actual: 'doggie', expected: 'doggiecp', reason: not equal
+message>null for uri: http://petstore.swagger.io/v2/</message><type>unknown</type></apiResponse>
